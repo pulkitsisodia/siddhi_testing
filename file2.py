@@ -55,7 +55,7 @@ def predict_disease(image, model):
 # Main function
 def main():
     st.title("Plantcare: Disease Detection System")
-    image_path = "/Users/siddh/OneDrive/Desktop/model final/home_page.jpeg"
+    image_path = "WhatsApp Image 2024-04-03 at 20.14.05_d4066fca.jpg"
     menu = ["Home", "About"]
     choice = st.sidebar.selectbox("Navigation", menu)
     st.image(image_path, use_column_width=True)
